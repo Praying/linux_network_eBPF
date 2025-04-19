@@ -2,7 +2,7 @@
 
 一个使用eBPF技术监控Linux内核网络栈的高性能工具，可以实时捕获和分析TCP数据包，帮助开发人员和系统管理员诊断网络问题。
 
-![Output Example](https://github.com/yourusername/linux-network-monitor/raw/main/screenshots/output_example.png)
+![Output Example](./output_example.png)
 
 ## 功能特点
 
@@ -28,7 +28,7 @@
 ## 安装要求
 
 - Linux内核 4.8+ (推荐5.0+以获得最佳性能)
-- Python 3.7+
+- Python 3.10+
 - BCC工具集
 - 必要的依赖库（包含在安装说明中）
 
@@ -183,6 +183,3 @@ sudo python3 linux_net_kernel.py -i 192.168.1.100 -p 80 -v
 - [BCC项目](https://github.com/iovisor/bcc) - eBPF编程框架
 - Linux内核社区 - eBPF支持和网络堆栈开发
 
----
-
-如有问题，请在GitHub上提交issue或联系：yourname@example.com
